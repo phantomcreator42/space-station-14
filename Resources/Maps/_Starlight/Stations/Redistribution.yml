@@ -1229,7 +1229,7 @@ entities:
       pos: -9.5,-2.5
       parent: 1
       rot: 3.141592653589793 rad
-- proto: MobRandomSovietCorpse
+- proto: RandomSovietCorpseSpawner
   entities:
   - uid: 40643
     components:
@@ -1241,7 +1241,8 @@ entities:
     - type: Transform
       pos: -11.5,-1.5
       parent: 1
-- proto: MobRandomSovietCaptainCorpse
+- proto: RandomSovietCaptainCorpseSpawner
+  entities:
   - uid: 40876
     components:
     - type: Transform

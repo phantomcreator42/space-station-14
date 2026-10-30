@@ -28,7 +28,7 @@
     jumpsuit: ClothingUniformJumpsuitSovietFatigues
     shoes: ClothingShoesBootsCombat
     pocket1: CigPackSoviet
-    id: CaptainPDA
+    pocket2: CaptainPDA
 
 - type: startingGear
   id: MercenaryCorpseGear
