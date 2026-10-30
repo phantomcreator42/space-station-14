@@ -22,9 +22,19 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Station
+      name: NT Redistribution Station
     - type: Transform
       parent: 0
+    - type: MapAtmosphere
+      space: False
+      mixture:
+        temperature: 311
+        volume: 1998.5
+        moles:
+          Oxygen: 15.4
+          Nitrogen: 54.6
+          CarbonDioxide: 30
+        immutable: True
     - type: MapGrid
       chunks:
         -2,-1:
@@ -1328,13 +1338,6 @@ entities:
       pos: -9.5,-2.5
       parent: 1
       rot: 3.141592653589793 rad
-- proto: WeatherMarkerAshfallLight
-  entities:
-  - uid: 40641
-    components:
-    - type: Transform
-      parent: 2
-      pos: 0.5,0.5
 - proto: MobRandomSovietCorpse
   entities:
   - uid: 40643
