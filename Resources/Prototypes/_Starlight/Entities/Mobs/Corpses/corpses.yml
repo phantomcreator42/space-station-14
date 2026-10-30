@@ -28,6 +28,15 @@
 
 - type: entity
   parent: SalvageHumanCorpse
+  id: MobRandomSovietCaptainCorpse
+  suffix: Dead, Soviet
+  components:
+  - type: Loadout
+    prototypes:
+    - SovietCaptainCorpseGear
+
+- type: entity
+  parent: SalvageHumanCorpse
   id: MobRandomMercenaryCorpse
   suffix: Dead, Mercenary
   components:

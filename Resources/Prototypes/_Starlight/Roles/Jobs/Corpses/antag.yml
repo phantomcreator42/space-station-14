@@ -23,6 +23,14 @@
     pocket1: CigPackSoviet
 
 - type: startingGear
+  id: SovietCaptainCorpseGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSovietFatigues
+    shoes: ClothingShoesBootsCombat
+    pocket1: CigPackSoviet
+    id: CaptainPDA
+
+- type: startingGear
   id: MercenaryCorpseGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMercenary
