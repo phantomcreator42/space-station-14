@@ -1858,13 +1858,6 @@ entities:
     - type: Transform
       pos: 1.5,-17.5
       parent: 1
-- proto: CaptainIDCard
-  entities:
-  - uid: 40874
-    components:
-    - type: Transform
-      pos: 1.5,-17.5
-      parent: 1
 - proto: SpawnMobFoxRenault
   entities:
   - uid: 40877
