@@ -33,8 +33,8 @@ entities:
         volume: 1998.5
         moles:
           Oxygen: 15.4
-          Nitrogen: 44.3
-          CarbonDioxide: 12.4
+          Nitrogen: 40.3
+          CarbonDioxide: 16.4
           CarbonMonoxide: 9.8
           Carbon: 17.1
         immutable: True
